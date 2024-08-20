@@ -1,11 +1,13 @@
 import "./App.css";
 
-import React from "react";
+import Container from "./Component/Container";
+import Result from "./Component/Result";
 
 const App = () => {
   return (
     <div>
-      <h1>hello world</h1>
+      <Container />
+      <Result />
     </div>
   );
 };
